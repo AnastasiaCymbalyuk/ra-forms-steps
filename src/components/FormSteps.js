@@ -47,7 +47,6 @@ export default function FormSteps() {
                     <button className="btn">OK</button>
                 </div>
             </form>
-            {console.log(state)}
             <List state={ state } onDelete={ handlerDelete }/>
         </>
     );
