@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.box_btn {
+    display: flex;
+    align-items: flex-end;
+}
+
+.btn {
+    background-color: white;
+    width: 70px;
+}
+
+.inp {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.inp, .btn {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.box_list {
+    display: flex;
+    flex-direction: column;
+}
+
+.box_title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.list_item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0;
+}
